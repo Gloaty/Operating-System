@@ -1,1 +1,2 @@
 # Operating-System
+This project is my attempt at creating an operating system. Github is used to manage the code. I have yet to find a name for the operating system. I will use github copilot's predictive algorithms to create a name for the operating system. This project may just take a while, so I'll need to buckle up, and get ready. 
