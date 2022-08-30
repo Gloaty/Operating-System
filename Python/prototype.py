@@ -23,7 +23,7 @@ time = Label(
     height = 2, 
 )
 date = Label(
-    root,
+    root, 
     text=clock_date(),
     foreground="green",
     background="black",
@@ -42,7 +42,7 @@ welcome_message = Label(
 )
 
 #Packing System
-time.pack(anchor="ne")
-date.pack(anchor="n")
-welcome_message.pack(anchor="center")
+time.pack(side=TOP, anchor="n", pady=5)
+date.pack(side=TOP, anchor="n", pady=5)
+welcome_message.pack(side=RIGHT, anchor="center")
 root.mainloop()
